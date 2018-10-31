@@ -15,6 +15,5 @@ class App < Sinatra::Base
       @age = params[:age]
       erb :display_puppy
     end
-  end
 
 end
